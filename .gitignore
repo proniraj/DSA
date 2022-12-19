@@ -54,7 +54,6 @@ dkms.conf
 # Others
 .vscode
 
-/c++
-!*.cpp
-*.md
-!Makefile
+*
+!/**/
+!*.*
