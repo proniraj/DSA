@@ -24,3 +24,17 @@ Data structures are essential ingredients in creating fast and powerful algorith
 - Sorting, for example sorting movies by rating
 
 DSA is about finding efficient ways to store and retrieve data, to perform operations on data, and to solve specific problems.
+
+<!-- prettier-ignore-start -->
+| Data Structure | Advantages | Disadvantages |
+| --- | --- | --- |
+| Array | Quick insertion, very fast access if you know the index | Slow search, slow deletion, fixed size |
+| Ordered Array | Quicker search than unsorted array | Slow insertion, slow deletion, fixed size |
+| Stack | Provides last-in, first-out access | Slow access to other items |
+| Queue | Provides first-in, first-out access | Slow access to other items |
+| Linked List | Quick insertion, quick deletion | Slow search |
+| Binary Tree | Quick search, insertion, deletion (if balanced) | Deletion is complex |
+| Hash Table | Very quick search, insertion, deletion | Slow deletion, accessw slow if key not known, inefficient memory usage |
+| Heap | Quick insertion, deletion, access to max/min | Slow access to other items |
+| Graph | Models real-world situations | Can be complex to implement |
+<!-- prettier-ignore-end -->
