@@ -1,6 +1,6 @@
 
 #include <stdio.h>
-#include <conio.h>
+
 #define size 10
 
 int queue[size];
@@ -60,7 +60,5 @@ int main() {
     peek();
     dequeue();
     peek();
-    getch();
     return 0;
 }
-

@@ -1,7 +1,4 @@
-// Stack implementation in C programming
-
 #include <stdio.h>
-#include <conio.h>
 
 int size = 100;
 int stack[100];
@@ -54,7 +51,7 @@ void pop()
     printf("The stack is overflow, can't pop an element\n");
 }
 
-void main()
+int main()
 {
     push(1);
     push(2);
@@ -65,5 +62,5 @@ void main()
     pop();
     pop();
     peek();
-    getch();
+    return 0;
 }

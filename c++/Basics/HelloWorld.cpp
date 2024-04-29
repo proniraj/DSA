@@ -1,8 +1,14 @@
-// Your First C++ Program
+/*
+
+C++ Program to Print Hello World
+
+*/
 
 #include <iostream>
+using namespace std;
 
-int main() {
-    std::cout << "Hello World!";
+int main()
+{
+    cout << "Hello, World!";
     return 0;
 }
